@@ -13,11 +13,11 @@ public class player implements KeyListener
 	double coordY = Game.HEIGHT*Game.SCALE/2, coordX = Game.WIDTH*Game.SCALE/2;
 	int width = 15, height = 15;
 	int leftBound = 150, rightBound = 450, upperBound = 100, lowerBound = 350;
-	double movementSpeed = 4;
+	double movementSpeed = 3;
 	
 	public void init()
 	{
-		
+
 	}
 	
 	public void tick(Game game)
